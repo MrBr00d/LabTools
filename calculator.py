@@ -8,3 +8,10 @@ def dilution():
 
   print(f'Stock volume to be added: {stock_calculation}.')
   print(f'Dilutant volume to be added: {dilutant_calculation}')
+
+def solution():
+  desired_volume = float(input("Enter desired volume (L): "))
+  desired_concentration = float(input("Enter desired concentration (M): "))
+  molar_weight = float(input("Enter molar weight of substance (g/mol): "))
+  calculation = desired_volume * desired_concentration * molar_weight
+  print(f"Mass of substance to add: {calculation} g")
