@@ -15,3 +15,11 @@ def solution():
   molar_weight = float(input("Enter molar weight of substance (g/mol): "))
   calculation = desired_volume * desired_concentration * molar_weight
   print(f"Mass of substance to add: {calculation} g")
+
+def Weight_volume_percent():
+  desired_wv = float(input("Desired % W/V :").replace(",", "."))
+  desired_volume = float(input("Desired volume (mL) :").replace(",", "."))
+  
+  calculation = desired_wv * desired_volume / 100
+  
+  print("Mass of solute needed (g): ", calculation, "g")
