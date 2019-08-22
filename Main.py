@@ -3,6 +3,7 @@ import os
 
 print('1 = Stock dilution')
 print('2 = Solution')
+print('3 = (W%/V)')
 choice = int(input("What action do you want to perform? "))
 
 if choice == 1:
