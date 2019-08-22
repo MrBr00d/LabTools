@@ -11,6 +11,9 @@ if choice == 1:
 elif choice == 2:
   os.system('cls')
   calculator.solution()
+elif choice == 3:
+  os.system('cls')
+  calculator.Weight_volume_percent()
 else:
   print('No valid choice')
 input("Press enter to exit.")
