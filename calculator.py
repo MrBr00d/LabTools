@@ -32,3 +32,11 @@ def Weight_volume_percent():
     calculation = desired_wv * desired_volume / 100
   
     print("Mass of solute needed (g): ", calculation, "g")
+    
+def Bobbie_mastermind():
+  stock_concentration = float(input('Enter stock concentration here: ').replace(',', '.'))
+  desired_concentration = float(input('Enter desired concentration here: ').replace(',', '.'))
+  dilutant_volume = float(input('Enter dilutant volume here: ').replace(',', '.'))
+  dilution_factor = desired_concentration / stock_concentration
+  calculation = (dilution_volume/(1-dilution_factor)) - dilution_volume
+    
